@@ -1,0 +1,78 @@
+/* Styles for the order page container */
+.container
+{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.order-page {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Styles for the heading */
+.order-page h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Styles for the form */
+.order-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+}
+
+/* Styles for the labels */
+.order-page label {
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #555;
+    align-self: flex-start;
+}
+
+/* Styles for the input and select fields */
+.order-page input[type="text"],
+.order-page input[type="number"],
+.order-page select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.order-page .totalAmount
+{
+    font-size: 1.3em;
+    font-weight: 600;
+    padding: 5px;
+    margin-bottom: 5px;
+
+}
+
+/* Styles for the submit button */
+.order-page input[type="submit"] {
+    padding: 10px 20px;
+    background: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.4em;
+}
+
+.order-page input[type="submit"]:hover {
+    background: #0056b3;
+}

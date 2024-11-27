@@ -1,0 +1,140 @@
+/* Styles for the signup page container */
+.container
+{
+    width:100vw;
+    height: 100vh;
+    background-color: #bfc1c3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.signup-page {
+    max-height: max-content;;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Styles for the heading */
+.signup-page h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Styles for the form */
+.signup-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Styles for the labels */
+.signup-page label {
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #555;
+    align-self: flex-start;
+}
+
+/* Styles for the input and select fields */
+.signup-page input[type="text"],
+.signup-page input[type="tel"],
+.signup-page input[type="email"],
+.signup-page select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+/* Styles for the submit button */
+.signup-page input[type="submit"] {
+    padding: 10px 20px;
+    background: #28a745;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.signup-page input[type="submit"]:hover {
+    background: #218838;
+}
+/* Styles for the signup page container */
+.signup-page {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Styles for the heading */
+.signup-page h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Styles for the form */
+.signup-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styles for the labels */
+.signup-page label {
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #555;
+    align-self: flex-start;
+}
+
+/* Styles for the input fields */
+.signup-page input[type="text"],
+.signup-page input[type="tel"],
+.signup-page input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+/* Styles for the submit button */
+.signup-page input[type="submit"] {
+    padding: 10px 20px;
+    background: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signup-page input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+
+/* Styles for the error messages */
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    align-self: flex-start;
+}

@@ -1,0 +1,85 @@
+/* Styles for the login page container */
+.container
+{
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.login-page {
+    width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Styles for the heading */
+.login-page h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Styles for the form */
+.login-page form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styles for the labels */
+.login-page label {
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #555;
+    align-self: flex-start;
+}
+
+/* Styles for the input fields */
+.login-page input[type="text"],
+.login-page input[type="number"],
+.login-page input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+/* Styles for the submit button */
+.login-page input[type="submit"] {
+    padding: 10px 20px;
+    background: #28a745;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.login-page input[type="submit"]:hover {
+    background: #218838;
+}
+
+/* Styles for the sign-up link */
+.login-page p {
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.login-page a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-page a:hover {
+    text-decoration: underline;
+}
